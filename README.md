@@ -23,7 +23,6 @@ curl -X POST \
   http://localhost:3000/sudoku-validator \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: a595284f-cc24-489f-86b6-ed8d44aece5a' \
   -d '{
 	"grid": [
 	 	[6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -46,7 +45,6 @@ curl -X POST \
   http://localhost:3000/sudoku-validator \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: a595284f-cc24-489f-86b6-ed8d44aece5a' \
   -d '{
 	"grid": [
 	 	[6, 7, 2, 1, 9, 5, 3, 4, 8],
